@@ -94,6 +94,8 @@ func main() {
 	os.Setenv("PLUGIN_REPO", config.Repo)
 	os.Setenv("PLUGIN_REGISTRY", config.Registry)
 	os.Setenv("PLUGIN_REGISTRY_TYPE", "GAR")
+
+	fmt.Println("ANURAG IN NEW GAR PLUGIN 1.1.7")
 	// invoke the base docker plugin binary
 	docker.Run()
 }
